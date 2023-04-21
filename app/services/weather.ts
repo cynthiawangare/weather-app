@@ -1,7 +1,7 @@
 //We will do the API call here
 import { CurrentWeather, Forecast } from "../models/weather";
 
-const apiKey="aa3404b716426ebc4ba5a9b4b2cce8f9";
+const apiKey="input the API got from openweather.org";
 const baseUrl='https://api.openweathermap.org/data/2.5';
 
 const fetchWeatherData = async (city: string) : Promise<{currentWeather: CurrentWeather, forecast: Forecast[]}> => {
